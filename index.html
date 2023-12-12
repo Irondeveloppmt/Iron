@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>login</title>
+	<link href="../css/style.css" rel="stylesheet" />
+	<script src="https://kit.fontawesome.com/c9f5871d83.js" crossorigin="anonymous"></script>
+	<script src="../js/index.js" crossorigin="anonymous"></script>
+	<link rel="icon" href="../media/icon.png" />
+	<script src="../js/recherche.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link href="../css/loading.css" rel="stylesheet" />
+	<script src="../js/loading.js" crossorigin="anonymous"></script>
+	<script src="../js/check.js"></script>
+</head>
+
+<body>
+	<div id="loading"></div>
+	<header class="header">
+		<nav class="nav">
+			<a href=""> Acceuil </a>
+			<a href="../a_propos.html"> A propos </a>
+			<a href="../service.html"> Services </a>
+			<a href="mailto:mathisfrances11@gmail.com?subject=Tu%20veux%20me%20parler%20?" target="_blank"> Contact </a>
+		</nav>
+		<div class="search">
+			<input type="text" id="searchInput" placeholder="Rechercher...">
+			<a><i class="fa-solid fa-magnifying-glass"></i></a>
+		</div>
+
+	</header>
+
+	<div class="background">
+		<section class="home">
+			<div class="content">
+				<a href="" class="logo">Sommaire</a>
+				<h2>Bonjour !</h2>
+				<h3>Vers notre nouveau site web</h3>
+				<pre>Un Site qui redirige vers tous mes autres sites web</pre>
+				<div class="icon">
+					<a href="https://www.instagram.com/mathis_fcs/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+					<a href="https://discord.com/channels/iron_5940"><i class="fa-brands fa-discord"></i></a>
+					<a href="https://twitter.com/okecddux" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+					<a href="https://www.tiktok.com/@mathis_fcs" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+				</div>
+			</div>
+			<div class="login">
+				<h2> Connexion</h2>
+				<div class="input">
+					<input type="text" id="email" class="input1" placeholder="Email" required>
+					<i class="fa-solid fa-lock"></i>
+				</div>
+				<div class="input">
+					<input type="password" id="password" class="input1" placeholder="Password" required>
+					<input id="checking_pass" type="checkbox">
+				</div>
+				<div class="check">
+					<label> <input class="checkbox" type="checkbox" checked>Se Souvenir de Moi</label>
+					<a href="#" id="forgot"> Mot de passe oublié ?</a>
+				</div>
+				<div class="button">
+					<button class="btn" id="signin"> Se Connecter</button>
+				</div>
+				<div class="sign-up">
+					<p> Vous n'avez pas de compte ?</p>
+					<a href="" id="non"> Créer en un</a>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<footer>
+		<p>&copy; 2023 Iron. Tous droits réservés.</p>
+	</footer>
+</body>
+
+</html>
